@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    color: darkgreen;
+}
+
+.section{
+    text-align: center;
+}
+
+.btn{
+    font-size: 6rem;
+    border: none;
+    background: rgb(255,255,255,.2);
+    border-radius: 10px;
+    padding: 15px;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: grayscale(0);
+}
+
+
+
