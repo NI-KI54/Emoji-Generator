@@ -34,5 +34,8 @@ h1{
     filter: grayscale(0);
 }
 
-
+.emoji-name{
+    font-weight: 600;
+    color: sienna;
+}
 
